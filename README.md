@@ -1,21 +1,46 @@
 # MERN Stack Project
 
-A full-stack application built using the MERN stack (MongoDB, Express, React, Node.js). This repository includes separate **frontend** and **backend** directories for modular development.
+A simple full-stack application built using the **MERN stack** (MongoDB, Express, React, Node.js).
 
 ---
 
-##  Table of Contents
+## Features
+- RESTful API with Express & MongoDB  
+- React frontend with routing  
+- Basic CRUD operations  
 
-- [Overview](#overview)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Project Structure](#project-structure)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Running Locally](#running-locally)  
-- [Scripts](#scripts)  
-- [Environment Variables](#environment-variables)  
-- [Usage](#usage)  
-- [Contributing](#contributing)  
-- [License](#license)  
+---
+
+## Tech Stack
+- **Frontend:** React  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+
+---
+
+## Project Structure
+mern_stack/
+├── backend/ # Server code
+├── frontend/ # React app
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js & npm  
+- MongoDB  
+
+### Installation
+```bash
+git clone https://github.com/Soumojit-007/mern_stack.git
+cd mern
+
+### Install dependencies:
+cd backend && npm install
+cd ../frontend && npm install
+_stack
+
+Start backend:
+cd backend
+npm run dev
